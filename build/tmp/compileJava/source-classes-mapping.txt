@@ -10,10 +10,34 @@ com/ntnn/dynamicprogramming/reverse.java
  com.ntnn.dynamicprogramming.reverse
 com/ntnn/dynamicprogramming/ClimbingStairs.java
  com.ntnn.dynamicprogramming.ClimbingStairs
-com/ntnn/dynamicprogramming/BestTimetoBuyandSellStockII.java
- com.ntnn.dynamicprogramming.BestTimetoBuyandSellStockII
 com/ntnn/hashtable.java
  com.ntnn.Result
  com.ntnn.hashtable
+com/ntnn/dfs/MaximumDepthNaryTree.java
+ com.ntnn.dfs.MaximumDepthNaryTree
+com/ntnn/dfs/NAryTreePreorderTraversal.java
+ com.ntnn.dfs.NAryTreePreorderTraversal
+ com.ntnn.dfs.Node
+com/ntnn/dfs/MergeTwoBinaryTrees.java
+ com.ntnn.dfs.MergeTwoBinaryTrees
 com/ntnn/dynamicprogramming/PascalTriangles.java
  com.ntnn.dynamicprogramming.PascalTriangles
+com/ntnn/dfs/InVertTreeBinaryTree.java
+ com.ntnn.dfs.InVertTreeBinaryTree
+com/ntnn/dynamicprogramming/BestTimetoBuyandSellStockII.java
+ com.ntnn.dynamicprogramming.BestTimetoBuyandSellStockII
+com/ntnn/dynamicprogramming/MinCostClimbingStairs.java
+ com.ntnn.dynamicprogramming.MinCostClimbingStairs
+com/ntnn/dynamicprogramming/GetMaximumGeneratedArray.java
+ com.ntnn.dynamicprogramming.GetMaximumGeneratedArray
+com/ntnn/dfs/IncreasingOrderSearchTree.java
+ com.ntnn.dfs.IncreasingOrderSearchTree
+com/ntnn/dfs/BinaryTreePath.java
+ com.ntnn.dfs.BinaryTreePath
+com/ntnn/dynamicprogramming/IsSubSequence.java
+ com.ntnn.dynamicprogramming.IsSubSequence
+com/ntnn/dfs/RangeSumBST.java
+ com.ntnn.dfs.RangeSumBST
+ com.ntnn.dfs.TreeNode
+com/ntnn/arrays/HideNumber.java
+ com.ntnn.arrays.HideNumber
