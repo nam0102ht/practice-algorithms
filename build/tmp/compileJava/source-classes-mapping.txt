@@ -11,6 +11,12 @@ com/ntnn/dfs/NAryTreePreorderTraversal.java
  com.ntnn.dfs.Node
 com/ntnn/dynamicprogramming/TicTacToe.java
  com.ntnn.dynamicprogramming.TicTacToe
+com/ntnn/linkedlist/CircularlyLinkedList.java
+ com.ntnn.linkedlist.CircularlyLinkedList
+ com.ntnn.linkedlist.CircularlyLinkedList$Node
+com/ntnn/bitmaps/MaximumXOROfTwoNumbersArray.java
+ com.ntnn.bitmaps.MaximumXOROfTwoNumbersArray
+ com.ntnn.bitmaps.MaximumXOROfTwoNumbersArray$TrieNode
 com/ntnn/dfs/MergeTwoBinaryTrees.java
  com.ntnn.dfs.MergeTwoBinaryTrees
 com/ntnn/dfs/InVertTreeBinaryTree.java
@@ -19,8 +25,12 @@ com/ntnn/dynamicprogramming/BestTimetoBuyandSellStockII.java
  com.ntnn.dynamicprogramming.BestTimetoBuyandSellStockII
 com/ntnn/dynamicprogramming/MinCostClimbingStairs.java
  com.ntnn.dynamicprogramming.MinCostClimbingStairs
+com/ntnn/binarySearch/MedianOfTwoSortedArrays.java
+ com.ntnn.binarySearch.MedianOfTwoSortedArrays
 com/ntnn/arrays/MoveZeroes.java
  com.ntnn.arrays.MoveZeroes
+com/ntnn/binarySearch/binarySearch.java
+ com.ntnn.binarySearch.binarySearch
 com/ntnn/dynamicprogramming/two_sum.java
  com.ntnn.dynamicprogramming.two_sum
 com/ntnn/arrays/HideNumber.java

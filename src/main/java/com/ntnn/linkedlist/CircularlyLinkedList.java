@@ -1,5 +1,6 @@
 package com.ntnn.linkedlist;
 
+
 public class CircularlyLinkedList<E> {
     private static class Node<E> {
         private E element;
@@ -46,14 +47,16 @@ public class CircularlyLinkedList<E> {
         if (isEmpty( )) return null;
         return (E) tail.getNext().getElement();
     }
-    public E last( ) { // returns (but does not remove) the last element
-        if (isEmpty( )) return null;
+
+    public E last() { // returns (but does not remove) the last element
+        if (isEmpty()) return null;
         return tail.getElement( );
     }
+
     // update methods
     public void rotate( ) { // rotate the first element to the back of the list
         if (tail != null) // if empty, do nothing
-            tail = tail.getNext( ); // the old head becomes the new tail
+            tail = tail.getNext(); // the old head becomes the new tail
     }
     public void addFirst(E e) { // adds element e to the front of the list
         if (size == 0) {
@@ -67,16 +70,40 @@ public class CircularlyLinkedList<E> {
     }
     public void addLast(E e) { // adds element e to the end of the list
         addFirst(e); // insert new element at front of list
-        tail = tail.getNext( ); // now new element becomes the tail
+        tail = tail.getNext(); // now new element becomes the tail
     }
 
     public E removeFirst( ) { // removes and returns the first element
         if (isEmpty( )) return null; // nothing to remove
-        Node<E> head = tail.getNext( );
+        Node<E> head = tail.getNext();
         if (head == tail) tail = null; // must be the only node left
-        else tail.setNext(head.getNext( )); // removes ”head” from the list
+        else tail.setNext(head.getNext( )); // removes head from the list
         this.size = this.size - 1;
-        return head.getElement( );
+        return head.getElement();
+    }
+
+    public void printCircular() {
+        if (size == 0) return;
+        Node<E> currentNode = tail;
+        System.out.println();
+        do {
+            System.out.print(currentNode.getElement().toString() + " ");
+            currentNode = currentNode.getNext();
+        } while (currentNode != tail);
+    }
+
+    public int getSize() {return size;}
+
+
+    public static void main(String[] args) {
+        CircularlyLinkedList<Integer> circularlyLinkedList = new CircularlyLinkedList<>();
+        circularlyLinkedList.addFirst(1);
+        circularlyLinkedList.addFirst(3);
+        circularlyLinkedList.addFirst(4);
+        circularlyLinkedList.addLast(5);
+        circularlyLinkedList.printCircular();
+        circularlyLinkedList.rotate();
+        circularlyLinkedList.printCircular();
     }
 
 }
